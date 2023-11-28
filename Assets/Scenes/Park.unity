@@ -256,6 +256,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b88883f9b3b7e4563b09bf6c3958c017, type: 2}
+    - target: {fileID: 9500000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
 --- !u!1001 &87955793
@@ -2137,8 +2141,8 @@ MonoBehaviour:
   controller: {fileID: 823065981}
   anim: {fileID: 823065983}
   speed: 8
-  rotSpeed: 600
-  rot: 0
+  rotSpeed: 1139.8
+  rot: 14.24
   gravity: 8
   running: 0
   moveDir: {x: 0, y: 0, z: 0}
